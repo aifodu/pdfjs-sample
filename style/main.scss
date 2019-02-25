@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navigation {
+  background: #dc143c;
+  padding: 0.5em;
+  display: flex;
+  top: 0;
+  position: sticky;
+
+  button {
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background: #ffffff;
+    color: #666666;
+    transition: opacity 300ms ease-in;
+    margin-right: 5px;
+  }
+
+  button:hover {
+    opacity: 0.85;
+    color: #222222;
+  }
+}
+
+.pages {
+  color: yellow;
+  margin-left: auto;
+  padding-right: 0.5em;
+}
+
+h1 {
+  font-weight: 300;
+  margin-left: 0.25em;
+}
+
+canvas {
+  display: flex;
+  align-self: center;
+  margin: 0 auto;
+}

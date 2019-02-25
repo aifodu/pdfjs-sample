@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>PDF Viewer</title>
+        <link rel="stylesheet" href="./style/main.css">
+    </head>
+
+    <body>
+        <div class="navigation">
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+            <span class="pages">
+                Page <span id="current"></span> of <span id="total"></span>
+            </span>
+        </div>
+
+        <h1>PDF Viewer Example</h1>
+
+        <canvas id="viewer"></canvas>
+
+
+        <!-- <script src="https://mozilla.github.com/pdf.js/build/pdf.js"></script> -->
+        <script src="./scripts/pdf.js"></script>
+        <script src="./scripts/main.js"></script>
+    </body>
+
+</html>
